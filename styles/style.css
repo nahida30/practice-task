@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    display: flex;
+    justify-content:space-around;
+    padding: 15px;
+    background-color: rgba(172, 166, 166, 0.5);
+    border-bottom:1px solid rgba(227, 227, 227,);
+}
+.logo-title{
+    font-size: 30px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:18px;
+    font-weight: 600;
+    color: rgb(225, 75, 29);
+}
+.logo{
+    width: 200px;
+}
+.items{
+    display: flex;
+    list-style: none;
+}
+.item{
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 22px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+}
